@@ -1,0 +1,7 @@
+merged_data.rds contains all prevalent and incident cases, all clinically diagnosed, all with blood pressure measurements at baseline, and where appropriate, people's medications at baseline. 
+
+merged_data_1.rds is a subset of merged_data, containing only people with blood pressure measurements at the first follow-up (sys/dias.bp.1), and their blood pressure meds at baseline.
+
+meds_1.rds contains all medications prescribed between August 2012 and June 2013, when the first follow-up measurement was taken.
+
+final_data.rds contains the baseline data and follow-up medication data for all 1857 people with bp 1 measurements. It includes prevalent and incident cases. This is the dataframe to analyse! Each row represents one person.
