@@ -1,3 +1,4 @@
+#Code creates function that can make OR/IRR tables from models. Change the family to "binomial", or "logit" to switch between 
 makeIRRTable <- function(mod, predictors=NULL, ref_levels = NULL, dp = 3, categorical_variables = NULL) {
   mod_exp <- (mod$family$family == "poisson")
   
